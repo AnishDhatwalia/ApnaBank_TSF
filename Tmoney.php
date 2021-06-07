@@ -31,6 +31,8 @@ if (isset($_POST['submit'])) {
         echo ' alert("Sorry, Insufficient Balance")';  // showing an alert box.
         echo '</script>';
     }
+    
+    //constraint to check same customer
     else if($from==$to)
     {
         echo '<script type="text/javascript">';
@@ -65,7 +67,7 @@ if (isset($_POST['submit'])) {
 
         if ($query) {
             echo "<script> alert('Transaction Successful');
-                                     window.location='transactionhistory.php';
+                                     window.location='TransactionHistory.php';
                            </script>";
         }
 
@@ -93,8 +95,8 @@ if (isset($_POST['submit'])) {
             <ul>
                 <li>
                     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
         </nav>
