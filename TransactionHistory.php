@@ -17,8 +17,8 @@
             <ul>
                 <li>
                     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/Tmoney.php">Transfer Money</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Tmoney.php">Transfer Money</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
         </nav>
@@ -57,15 +57,15 @@
                 <td class="py-2"><?php echo $rows['D & t']; ?> </td>
                 
                 <?php
-                                }
+                }
                                 
-                                ?>
-                            </tbody>
-                        </table>
+                 ?>
+                </tbody>
+            </table>
                         
-                    </div>
-                </div>
-</center>
+            </div>
+        </div>
+    </center>
 </body>
 
 </html>
