@@ -87,8 +87,8 @@ if (isset($_POST['submit'])) {
             <ul>
                 <li>
                     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/transactionhistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="display.php">View All Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
         </nav>
