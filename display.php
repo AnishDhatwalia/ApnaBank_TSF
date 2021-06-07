@@ -16,8 +16,8 @@
             <ul>
                 <li>
                     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/Customer.php">View Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Customer.php">View Customer</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
         </nav>
