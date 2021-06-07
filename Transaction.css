@@ -1,0 +1,62 @@
+.bg{
+    background-image: url("Web Bg.jpg");
+}
+.head{
+    color: lavender;
+}
+#myBtn{
+    background-color:  #0b64a0;
+    border: 0px solid transparent;  
+    padding: 10px;
+    font-size: large;
+}
+#myBtn:hover{
+    transform: scale(1.1);
+    background-color:#0d74b8;
+}
+.form-control{
+    width: 250px;
+    font-size:15px;
+    margin-left: 5%;
+}
+.form-control:hover{
+    transform: scale(1.05);
+}
+.opt{
+    margin-left: 5px;
+}
+nav li{
+    margin-left: 60%; 
+    font-size: larger;
+    list-style: none;
+}
+nav li a{
+    text-decoration:none;
+    color: rgb(156, 195, 247);
+    align-items: center;
+}
+nav li a:hover{
+    color: lavenderblush;
+}
+.table{
+    color:lavender;
+    width: 600px;
+}
+table {
+    width: 80%;        
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    }
+    th, td {
+    padding: 8px;
+    color: lavender;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+    border-bottom:5px solid #deedf4;
+    }
+    tbody tr:nth-child(odd) {
+    background-color: #201261;
+    }
+    tr:hover{
+        background-color: #04708b;
+    }

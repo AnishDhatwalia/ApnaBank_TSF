@@ -1,0 +1,39 @@
+.bg{
+    background-image: url("Web\ Bg.jpg");
+}
+.header{
+margin-left:40%;
+color: lavender;
+}
+table{
+width: 600px;   
+margin-left:120px;     
+font-family: arial, sans-serif;
+border-collapse: collapse;
+}
+th, td {
+padding: 8px;
+color: lavender;
+text-align: left;
+border-top: 1px solid #dee2e6;
+border-bottom:5px solid #deedf4;
+}
+tbody tr:nth-child(odd) {
+background-color: #201261;
+}
+tr:hover{
+background-color: #0e4a97;
+}
+nav li{
+    margin-left: 60%; 
+    font-size: larger;
+    list-style: none;
+}
+nav li a{
+    text-decoration:none;
+    color: rgb(156, 195, 247);
+}
+nav ul li a:hover{
+    transform:scale(1.1);
+    color: lavenderblush;
+}

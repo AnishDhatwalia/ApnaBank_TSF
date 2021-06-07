@@ -1,0 +1,71 @@
+.BG1{
+    background-image: url("Web Bg.jpg");
+}
+.header{
+    font-weight: 900;
+    padding: 30px;
+    margin-left: 41%;
+    font-size: xx-large;
+    align-content: center;
+}
+.header1{
+    /* background-image:url("headerBg.jpg"); */
+    /* border: 10px solid rgb(140, 213, 255); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(151, 222, 250);
+}
+.link{
+    width: 35%;
+    border-radius: 10px;
+    border: 5px solid rgb(202, 234, 252);
+    margin-top: 0.5%;
+    padding: 7%;
+    /* background-image:url("Link Bg.jpg"); */
+    text-align:left;
+    
+}
+section a{
+    text-decoration: none;
+    color: rgb(8, 57, 85);
+}
+/* .Bg{
+    /* background-image: url("Background.gif"); */
+    /* background-color: rgb(128, 246, 255); }*/
+
+.link1 button{
+    /* color: rgb(13, 58, 83); */
+    padding: 6px;
+    /* background-color: rgb(137, 212, 255); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    border: 0px solid transparent;
+}
+.link1 button:hover{
+    transform: scale(1.05);
+    background-color: rgb(137, 212, 255);
+    animation-name: example;
+    animation-duration: 3.5s
+    ;
+}
+@keyframes example 
+{
+    0%   {background-color: red;}
+    25%  {background-color: rgb(190, 224, 243);}
+    50%  {background-color: rgb(63, 226, 213);}
+    100% {background-color: rgb(137, 212, 255);}
+}
+.Footer{
+    background-color: srgb(28, 28, 54);
+}
+.Footer footer{
+    color: lightblue;
+    position:absolute;
+    padding-top: 0.5%;
+    margin-left: 35%;
+}
+.Footer p a img:hover{
+    transform: scale(1.1);
+}
+.img img:hover{
+    transform:scale(1.01);
+}
