@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Customer</title>
     <style>
         .bg{
                 background-image: url("Web\ Bg.jpg");
@@ -54,7 +54,6 @@
     </style>
 </head>
 <body class="bg">
-        <div class="">
             <div>
                 <img src="Logo.png" alt="" width="500" style="margin-left: 28%;">
             </div>
@@ -62,12 +61,12 @@
             <ul>
                 <li>
                     <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost\banking\display.php">View All Customers</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="http://localhost/banking/TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="display.php">View All Customers</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="TransactionHistory.php">Transaction History</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </li>
             </ul>
             </nav>
-            <center>
+    <center>
                 <h1 style="color: lavender;">Customer Details</h1>
                 <?php
                     ?>
@@ -115,10 +114,9 @@
                          ?>  <button class="bt"><a href="transaction.php" class="Tran">Transfer</a></button><?php
                     }
                     else{
-                        ?> <button class="bt"><a href="http://localhost/banking/Tmoney.php" class="Tran">Transfer</a></button><?php
+                        ?> <button class="bt"><a href="Tmoney.php" class="Tran">Transfer</a></button><?php
                     }?>
-                    </div>       
-                    </center>
-                    </div>
+            </div>       
+    </center>
 </body>
 </html>
